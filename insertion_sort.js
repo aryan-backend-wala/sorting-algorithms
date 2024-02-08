@@ -1,7 +1,3 @@
-const swap = (arr, index1, index2) => {
-  [arr[index1], arr[index2]] = [arr[index2], arr[index1]];
-}
-
 const insertion_sort = (arr) => {
   const n = arr.length;
   for(let i=1;i<n;i++){
