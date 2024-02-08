@@ -1,6 +1,6 @@
 function isSorted(arr, n){
   for(let i=1;i<n;i++){
-    if(arr[i] < arr[i-1]){
+    if(arr[i] <= arr[i-1]){
       return false;
     }
   }
@@ -31,5 +31,5 @@ function permutation_sort(arr){
 
 const arr = [3, 2, 5, 1, 0, 4];
 const arr1 = [1,2,3,4,5];
-const _print = permutation_sort(arr);
+const _print = permutation_sort(arr1);
 console.log(_print);
